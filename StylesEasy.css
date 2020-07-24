@@ -66,6 +66,30 @@ li a {
 .left-nav{
     float:left;
 }
+.app-icon{
+    opacity: 75%;
+    position: relative;
+    top: -3px;
+    width: 24px;
+    height: 24px;
+}
+.app-icon:hover{
+    opacity: 100%;
+}
+
+.sign-in{
+    background-color: rgb(66, 133, 244);
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    padding: 7px 13px;
+    border: none;
+    border-radius: 2px;
+    size: 25px 213px;
+    outline: none;
+    position: relative;
+    top: 8px;
+}
 footer{
     display: block;
     position: fixed;
@@ -92,28 +116,4 @@ footer{
 }
 #Feeling-Lucky-Button:hover{
     border: 1px solid rgb(179, 179, 179);
-}
-.app-icon{
-    opacity: 75%;
-    position: relative;
-    top: -3px;
-    width: 24px;
-    height: 24px;
-}
-.app-icon:hover{
-    opacity: 100%;
-}
-
-.sign-in{
-    background-color: rgb(66, 133, 244);
-    font-size: 13px;
-    font-weight: bold;
-    color: white;
-    padding: 7px 13px;
-    border: none;
-    border-radius: 2px;
-    size: 25px 213px;
-    outline: none;
-    position: relative;
-    top: 8px;
 }
